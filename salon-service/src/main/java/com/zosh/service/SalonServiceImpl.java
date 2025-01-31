@@ -1,4 +1,4 @@
-package com.zosh.service.impl;
+package com.zosh.service;
 
 import com.zosh.modal.Salon;
 import com.zosh.payload.dto.SalonDTO;
