@@ -16,7 +16,6 @@ public class SalonMapper {
         salonDTO.setOwnerId(salon.getOwnerId());
         salonDTO.setId(salon.getId());
         salonDTO.setEmail(salon.getEmail());
-
         return salonDTO;
 
     }
