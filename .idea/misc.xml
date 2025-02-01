@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/ku-ku/pom.xml" />
         <option value="$PROJECT_DIR$/cattegory-service/pom.xml" />
         <option value="$PROJECT_DIR$/service-offering/pom.xml" />
+        <option value="$PROJECT_DIR$/booking-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

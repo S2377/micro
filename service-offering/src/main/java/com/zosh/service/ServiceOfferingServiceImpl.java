@@ -1,4 +1,4 @@
-package com.zosh.service.impl;
+package com.zosh.service;
 
 import com.zosh.dto.CategoryDTO;
 import com.zosh.dto.SalonDTO;

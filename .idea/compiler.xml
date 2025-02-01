@@ -11,13 +11,14 @@
         <module name="salon-service" />
         <module name="service-offering" />
       </profile>
-      <profile name="Annotation profile for service-offering" enabled="true">
+      <profile name="Annotation profile for booking-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="booking-service" />
         <module name="user-service" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="booking-service" options="-parameters" />
       <module name="cattegory-service" options="-parameters" />
       <module name="demo-ke" options="-parameters" />
       <module name="ku-ku" options="-parameters" />
