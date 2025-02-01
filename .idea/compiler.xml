@@ -9,8 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cattegory-service" />
         <module name="salon-service" />
+        <module name="service-offering" />
       </profile>
-      <profile name="Annotation profile for cattegory-service" enabled="true">
+      <profile name="Annotation profile for service-offering" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -31,6 +32,7 @@
       <module name="demo-ke" options="-parameters" />
       <module name="ku-ku" options="-parameters" />
       <module name="salon-service" options="-parameters" />
+      <module name="service-offering" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
